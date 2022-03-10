@@ -1,0 +1,6 @@
+# default.custom.yaml
+patch:
+  "menu/page_size": 8  # 候选词数量
+  schema_list:  
+    - schema: pinyin_simp  # 添加袖珍简体方案
+  "switcher/hotkeys":   # 关闭方案选择快捷键, (切换方案以后)

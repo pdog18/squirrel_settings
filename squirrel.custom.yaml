@@ -1,0 +1,6 @@
+# squirrel.custom.yaml
+patch:
+  style:
+    horizontal: true  # 候选词横向排列
+    color_scheme: clean_white # 皮肤方案
+  app_options:  # 指定 app 切换英文模式列表, 此处设置为空
