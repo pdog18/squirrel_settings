@@ -64,7 +64,8 @@ speller:
     - derive/([iu])a(o|ng?)$/a$1$2/
 
 translator:
-  dictionary: pinyin_simp
+  dictionary: pinyin_simp.extended
+  #enable_user_dict: false
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
@@ -83,6 +84,9 @@ punctuator:
   half_shape:
     '{' : { commit: '「' }
     '}' : { commit: '」' }
+    ',' : { commit: '，' }
+    '.' : { commit: '。' }
+    '\' : { commit: '、' }
   #import_preset: symbols
 
 key_binder:
